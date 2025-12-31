@@ -4,6 +4,7 @@ data/private/
 Project-1/readmit/scripts/data/private
 Project-1/readmit/scripts/data/raw
 *.zip
+Project-1/readmit30/faculty/faculty_workdir
 
 # outputs
 predictions.csv
