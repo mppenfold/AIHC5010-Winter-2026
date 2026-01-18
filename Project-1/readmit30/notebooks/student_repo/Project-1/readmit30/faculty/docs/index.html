@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Readmit30 Leaderboard</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid #ddd; padding: 0.5rem; text-align: left; }
+    th { position: sticky; top: 0; background: #fff; }
+    .small { color: #666; font-size: 0.9rem; }
+    .ok { color: #0a0; font-weight: 600; }
+    .err { color: #a00; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>Readmit30 Leaderboard</h1>
+  <p class="small">Primary metric: AUROC. Tie-breakers: AUPRC, then Brier (lower is better).</p>
+  <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>team</th>
+      <th>submission</th>
+      <th>auroc</th>
+      <th>auprc</th>
+      <th>brier</th>
+      <th>n</th>
+      <th>timestamp</th>
+      <th>status</th>
+      <th>notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TeamS</td>
+      <td>e7ddc3a</td>
+      <td>0.656994</td>
+      <td>0.221064</td>
+      <td>0.095114</td>
+      <td>20449.0</td>
+      <td>2025-12-30T22:58:40+00:00</td>
+      <td><span class='ok'>OK</span></td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>TeamY</td>
+      <td>checking_workflow_009</td>
+      <td>0.501814</td>
+      <td>0.110532</td>
+      <td>0.119931</td>
+      <td>20449.0</td>
+      <td>2025-12-30T22:58:10+00:00</td>
+      <td><span class='ok'>OK</span></td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Team1</td>
+      <td>checking_workflow_007</td>
+      <td>0.501814</td>
+      <td>0.110532</td>
+      <td>0.119931</td>
+      <td>20449.0</td>
+      <td>2025-12-25T19:42:07+00:00</td>
+      <td><span class='ok'>OK</span></td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>Team0</td>
+      <td>checking_workflow_006</td>
+      <td>0.501814</td>
+      <td>0.110532</td>
+      <td>0.119931</td>
+      <td>20449.0</td>
+      <td>2025-12-25T19:41:58+00:00</td>
+      <td><span class='ok'>OK</span></td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>TeamX</td>
+      <td>weekC</td>
+      <td>0.497294</td>
+      <td>0.113737</td>
+      <td>0.099448</td>
+      <td>20449.0</td>
+      <td>2025-12-30T22:49:06+00:00</td>
+      <td><span class='ok'>OK</span></td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+  <p class="small">Updated from <code>leaderboard/leaderboard.csv</code>.</p>
+</body>
+</html>
